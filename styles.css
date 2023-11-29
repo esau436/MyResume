@@ -1,0 +1,74 @@
+.myclass{
+ color: blue;
+}
+.bi bi-star-fill{
+    color: orange;
+}
+.footer{
+    width: 100% !important;
+    height: 200px !important;
+    bottom: 0;
+    position: absolute !important;
+}
+#MyPicture{
+    width: 150px;
+    padding: 0%;
+}
+.header{
+    padding: 2rem;
+}
+.changeColor:hover{
+    background-color:#112240;
+}
+@font-face {
+    font-family: "HeaderFont";
+    src: url(/Fonts/Calibre-Medium.woff2) format("woff2");
+}
+@font-face {
+    font-family: "BodyFont";
+    src: url('/Fonts/Calibre-SemiboldItalic.woff2') format('woff2');
+}
+.headerFont{
+    font-family: "HeaderFont";
+    color: #e5e7eb;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+    
+}
+.bodyTitleFont{
+    font-family: "bodyFont";
+    color: #e5e7eb;
+    font-style: italic;
+    text-align: center;
+}
+.label-zoom:hover {
+    transform: scale(1.5); /* Adjust the scale factor as needed */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+  }
+  .arrow {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #333; /* Adjust the color as needed */
+  }
+  .menuLinks:hover{
+    color: #64ffda;
+  }
+  .gradient-border {
+    margin-top: 2rem;
+    border: 1px solid transparent; /* Set the width of the border */
+    border-image: linear-gradient(to right, #ff7e5f, #feb47b); /* Define the gradient colors */
+    border-image-slice: 1; /* Make the entire border use the gradient */
+  }
+  .socialNetwork{
+    width: 40px;
+    height: 40px;
+    margin-right: 2rem;
+    margin-left: 1rem;
+  }
+  #aboutMe{
+    text-align: center;
+    color: #e5e7eb;
+  }
